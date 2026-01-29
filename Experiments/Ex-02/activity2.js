@@ -156,5 +156,9 @@ function sumOfArray(arr) {
 }
 document.write(sumOfArray([1, 2, 3, 4, 5]));
 
-
-
+//14.object 
+const obj1 = {
+    name : "anjali",
+    age  : 20
+};
+document.write(obj1);
