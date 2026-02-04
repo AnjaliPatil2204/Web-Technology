@@ -67,30 +67,39 @@ document.write(fibonacciSeries(10));
 //5.find largest element in array
 document.write("<br>Activity 5 : Find Largest Element in Array : ");
 function findLargestElement(arr) {
-    return Math.max(...arr);
+    return Math.max(...arr);   //spread operator used to expand array elements
 }
 document.write(findLargestElement([1, 3, 7, 0, 5]));
 
 //6.remove duplicate element in array
 document.write("<br>Activity 6 : Remove Duplicate Element in Array : ");
-function removeDuplicates(arr) {
-    return [...new Set(arr)];
+function removeDuplicate(arr) {
+    let unique = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (!unique.includes(arr[i])) {
+            unique.push(arr[i]);
+        }
+    }
+    return unique;
 }
-document.write(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));
+document.write(removeDuplicate([1, 2, 2, 3, 4, 4, 5]));
 
 //7. find missing number in array
 document.write("<br>Activity 7 : Find Missing Number in Array : ");   
-function findMissingNumber(arr, n) {
-    const total = (n * (n + 1)) / 2;
-    const sum = arr.reduce((acc, val) => acc + val, 0);
+function missingNumber(arr, n) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    let total = (n * (n + 1)) / 2;
     return total - sum;
 }
-document.write(findMissingNumber([1, 2, 4, 5], 5));
+document.write(missingNumber([1, 2, 4, 5], 5));
 
 //8.for string : reverse a string
 document.write("<br>Activity 8 : Reverse a String : ");
 function reverseString(str) {
-    return str.split('').reverse().join('');
+    return str.split('').reverse().join(''); //split() method is used to split a string into an array of substrings, reverse() method is used to reverse the array elements, join() method is used to join the array elements into a string.
 }   
 document.write(reverseString("anjali"));
 
