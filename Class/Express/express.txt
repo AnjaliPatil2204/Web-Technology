@@ -1,0 +1,45 @@
+- Express is minimal and flexible web application framework for node js.
+- That simplifies the development of web servers and api.
+- Q . why use express when we have node js??? --->  larger application 
+
+Features of Express 
+- routing , middleware support, request and response handling , rest api creation , template rendring.
+
+steps : 
+ 1 . open terminal
+ 2 . check node version 
+ 3 . npm init   --- package.json file created 
+ 4 . npm install express   --- node_module folder and package-lock.json created
+ 5 . create entry file index.js file
+ 6. to run - node filename.js
+
+ npm ---> node package manager
+
+ activity 1  --- different betn package.json and package-lock.json
+    - package.json is a file that contains metadata about a node js project and its dependencies.
+    - package-lock.json is a file that contains the exact version of each dependency installed in a node js project. 
+    - it is automatically generated when you run npm install and should not be manually edited. 
+    - it helps to ensure that the same versions of dependencies are installed across different environments and machines.
+
+ act 2 --- different btn dev dependency and dependency
+ act 3 --- http request
+    - http request is a message sent by a client to a server to request data or perform an action.
+    - types of http request :
+        1. GET : used to retrieve data from a server.
+        2. POST : used to send data to a server to create a new resource.
+        3. PUT : used to update an existing resource on a server.
+        4. DELETE : used to delete a resource from a server.
+
+department project  ----- /mechanical shows mechanical student
+
+ --- Routing in Express js ---
+ - Routing refers to deremining . how an application response to client request for a specific url and http methods.
+ - '/' ---> represent routing
+
+ Componets of routing 
+ -  url part , http method , handle function
+
+
+--- Middleware Function---
+- middleware functions are function that executes during a life cycle of the request before sending the final response.
+- they have access to request , response and next .

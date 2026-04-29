@@ -1,0 +1,48 @@
+***React***
+- React is a java script library developed by meta to build fast and interactive interface.
+
+Activity 1 --- different btn react and angular
+
+why do we use react
+- problem with javascrip , full page reload,complex dom manipulation,hard to manage large app.
+- updates onlyb rwquird part with react . uses reusable comppponents.
+
+SPA---single page application 
+- eg . instragram,facebook
+- when you click page does not reload
+
+virtual dom --
+-react creats a copy of real dom is called virtual dom
+-when data changes react updates virtual dom
+-updates only changes part in real dom.
+
+tool instalation ---
+- npm
+-node.javascrip
+-
+
+vite --- is a fast build tool
+npm install ---install dependencies
+npm run dev ---start to run
+
+Important files 
+-index.js --entry
+-main.jsx ---main entry point of react app
+-app.jsx ---root comppponents
+-componen is reusable part
+
+jsx ---> javascript + html . 
+-it aloows us to write html code inside the js code.
+- const element = <h1>Welcome</h1>
+Rules-----
+ - must return single parent 
+ -use scope bracktes for js
+ 
+component 
+- is a heart of react
+- types 1. functional and 2. class
+
+a function can only return only once . after one return the second line not return.
+
+***Props***
+- data passing from parent to child

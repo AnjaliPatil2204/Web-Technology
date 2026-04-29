@@ -1,0 +1,32 @@
+<h2>Product List</h2>
+
+<!-- Filter -->
+<select [(ngModel)]="selectedCategory">
+  <option>All</option>
+  <option>Electronics</option>
+  <option>Fashion</option>
+</select>
+
+<hr>
+
+<!-- Products -->
+<div *ngFor="let product of filteredProducts">
+  <p>
+    <b>{{ product.name }}</b> -
+    {{ product.category }} -
+    ₹{{ product.price }}
+  </p>
+
+  <button (click)="addToCart(product)">
+    Add to Cart
+  </button>
+
+  <hr>
+</div>
+
+<!-- Cart -->
+<h3>Cart ({{ cart.length }})</h3>
+
+<div *ngFor="let item of cart">
+  {{ item.name }} - ₹{{ item.price }}
+</div>

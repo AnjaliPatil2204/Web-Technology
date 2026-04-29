@@ -1,0 +1,65 @@
+.container {
+  max-width: 400px;
+  margin: auto;
+  font-family: Arial;
+  text-align: center;
+}
+
+.balance {
+  background: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.inc-exp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.income {
+  color: green;
+}
+
+.expense {
+  color: red;
+}
+
+.form input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+.form button {
+  width: 100%;
+  padding: 8px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  background: #eee;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+.plus {
+  border-right: 4px solid green;
+}
+
+.minus {
+  border-right: 4px solid red;
+}
+
+button {
+  cursor: pointer;
+}

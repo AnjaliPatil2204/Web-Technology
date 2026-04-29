@@ -1,0 +1,36 @@
+Files --->
+- Package.json --- is a configuration file , information about your project
+-Package-lock.json --- is a configuration in deatiled info.
+-Angular.json --- is a project confi file
+-Style.css---globaly css style file
+-gitignore -- version controll file
+-editorconfig --- info about character , space,changing styles in css
+-index.html --- main html file load Angular
+-main.ts---Entry point file
+-app.config.ts---app config file
+
+Data types ---
+- there are two datatyeps
+-1. primitive-
+   - number --- let age : number = 23;
+   - string---- let name : string ="abc";
+   - boolean--- let isLoaded : boolean = false;
+   - null ----- let data : any = null;
+   - undefined
+
+
+Components ---> 
+    - components is a ui blocks of structure .
+    - when we create componet component creates four files html,css,ts,and spesc.ts
+    - command ---*** ng generate component name ***
+
+Data Binding --- ther are two types of databining 
+ 1. one way and 2. two way
+1. interpolation -- {{value}}
+2. property --- [property]="value"
+3. event --- {event}="handler()"
+4. two-way --[(ngmodel)]="value"
+
+databinding means connect ui code
+
+Activity 1 --- what is ng , ng if- else ----how we can use if-else , loops,switch cases in Angular

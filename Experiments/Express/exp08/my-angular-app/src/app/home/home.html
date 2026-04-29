@@ -1,0 +1,17 @@
+<p>home works!</p>
+<h2> details</h2>
+
+<p>Name: {{name}}</p>
+<p>Age: {{age}}</p>
+<p>Course: {{course}}</p>
+
+<input [(ngModel)]="name" placeholder="enter name">
+<br>
+
+<input [(ngModel)]="age" placeholder="enter age">
+<br>
+
+<input [(ngModel)]="course" placeholder="enter course">
+<!-- EVENT BINDING BUTTON -->
+<br>
+<button (click)="changeName()">Change Name</button>

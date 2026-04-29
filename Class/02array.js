@@ -28,9 +28,6 @@ let score2 = 200;
 let score3 = 300;
 console.log(Array.of(score1,score2,score3));  //convert into one array
 
-//what is string interpolation
-//diffrence between null and undefined
-//methods for number 
 
 
 

@@ -1,0 +1,17 @@
+sequal stand for structural query language . is used to communicate with relational database.
+
+Activity 1 --- write a query for create table ,2. insert ,3. select ,4.update,5.delete
+create table table_name
+create table student(Id PRIMARY KEY , name VARCHAR , age INT);
+INSEART INTO student VALUES(1,abc,22);
+UPDATE students WHERE Id = 1;
+
+Connecting node.js with seqaul database
+- we use Node.js backend to connect database
+- npm install mysql2
+
+Activity 2 --- write a syntax for get,post,delete.
+
+app.use('/get')
+
+rebrush sql --- queries, joins , keys , all question related to sql.

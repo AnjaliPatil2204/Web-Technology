@@ -1,0 +1,12 @@
+<h2> Study Planner</h2>
+
+<button routerLink="/">Home</button>
+
+<ul>
+  <li *ngFor="let t of tasks"
+      [ngClass]="t.priority">
+
+    {{t.subject}} - {{t.deadline}} - {{t.priority}}
+
+  </li>
+</ul>
